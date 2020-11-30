@@ -1,0 +1,145 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-Nov-2020, 15:26:45
+    Author     : macbbookprocatalina
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #9b59b6;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+@media screen and (max-width: 480px) {
+
+	.social-panel-container.visible, container {
+		transform: translateX(0px);
+	}
+	
+	.floating-btn {
+		right: 10px;
+	}
+}
+
+/* BMI */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #f3f8ff;
+}
+
+
+#calculator {
+    height: 400px;
+    width: 350px;
+    padding: 20px;
+}
+
+#calculator h2
+{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0;
+    color: #1479ff;
+}
+
+#calculator input[type="text"] {
+    height: 45px;
+    width: 310px;
+    margin: 10px 0;
+    padding: 0px 15px;
+    border: 2px solid #1479ff;
+    outline: none;
+    background: #f3f8ff;
+    color: #1479ff;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+#calculator input[type="text"]::placeholder {
+    color: #1479ff;
+}
+
+#calculator input[type="submit"] {
+    height: 50px;
+    width: 310px;
+    margin: 20px 0;
+    padding: 0px 15px;
+    border: none;
+    outline: none;
+    background: #1479ff;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#calculator #yourBMI {
+    font-size: 20px;
+    color: #1479ff;
+    font-weight: 800;
+}
+
+#guide ul {
+    padding: 0 20px;
+}
+
+#guide ul li {
+    height: 50px;
+    font-size: 16px;
+}
